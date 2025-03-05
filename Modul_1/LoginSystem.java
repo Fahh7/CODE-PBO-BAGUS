@@ -20,7 +20,7 @@ public class LoginSystem {
         System.out.println("2. Login Mahasiswa");
         System.out.print("Pilih opsi (1/2): ");
         int pilihan = scanner.nextInt();
-        scanner.nextLine(); // Membersihkan buffer
+        scanner.nextLine(); 
 
         if (pilihan == 1) {
             loginAdmin();
